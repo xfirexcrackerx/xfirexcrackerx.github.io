@@ -1,0 +1,156 @@
+@font-face {
+    font-family: moonstar;
+    src: url(../../font/Moonstar.ttf);
+}
+@font-face {
+    font-family: honeymoon;
+    src: url(../../font/Honeymoon.ttf);
+}
+@font-face {
+    font-family: content;
+    src: url(../../font/contentFont.ttf);
+}
+*{
+    cursor: url(../../font/Cursors/cursor1.cur), auto
+}
+body{
+    background: url("../../Images/backgrounds/backgroundSailorSoldires.jpg")no-repeat center fixed;
+    background-size: cover;
+    font-size: 25px;
+}
+nav ul {
+    font-family: honeymoon;
+    padding: 0;
+    height: 43px;
+    width: 100%;
+    background-color: #086CA2;
+    margin: 0 auto;
+    position: relative;
+}
+nav ul ul{
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+nav ul ul li{
+    background-color: #086CA2;
+    position: relative;
+    width: 248px;
+}
+nav ul li:hover>ul{
+    display: inline-block;
+}
+li{
+    position: relative;
+    float: left;
+    padding:5px 62px;
+    font-size: 1.5rem;
+    display: inline-block;
+}
+li:hover{
+    background: yellow;
+}
+li a{
+    text-align: center;
+    text-decoration: none;
+    color: #050c2a;
+}
+.active{
+    color: #64AAD0;
+}
+
+h1{
+    text-shadow:2px 2px 8px green;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    position: relative
+}
+
+.answers li {
+    list-style: upper-alpha;
+    cursor: pointer;
+}
+
+label {
+    margin-left: 0.5em;
+    cursor: pointer;
+}
+#answersDiv{
+    background: white;
+    opacity: 0.8;
+    margin-left:370px;
+    width: 800px;
+    border: 3px dashed hotpink;
+    border-radius: 25px;
+    cursor: pointer;
+}
+#results {
+    background: hotpink;
+    color: #000000;
+    padding: 3px;
+    text-align: center;
+    width: 200px;
+    cursor: pointer;
+    border: 1px solid gray;
+    border-radius: 25px;
+    margin-left: 650px;
+    margin-top: 50px;
+}
+
+#results:hover {
+    background: #3d91b8;
+    color: #ffffff;
+    padding: 3px;
+    text-align: center;
+    width: 200px;
+    cursor: pointer;
+    border: 1px solid gray;
+}
+
+#categorylist {
+    margin-top: 6px;
+    display: none;
+}
+
+#category1, #category2, #category3, #category4, #category5, #category6, #category7, #category8, #category9, #category10, #category11 {
+    display: none;
+}
+
+#closing {
+    display: none;
+    font-style: italic;
+}
+.questionDiv{
+    background: white;
+    display: inline-block;
+    border: 1px solid black;
+}
+img{
+    width: 300px;
+    height: 500px;
+}
+#backToTop{
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: -10px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: darkred;
+    font-weight: bolder;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+footer{
+    float: left;
+    font-family: "Comic Sans MS";
+    background: black;
+    color: #086CA2;
+    text-align: center;
+    margin-top: 250px;
+    width: 1575px;
+}

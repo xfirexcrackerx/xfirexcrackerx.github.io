@@ -1,0 +1,307 @@
+@font-face {
+    font-family: moonstar;
+    src: url(../font/Moonstar.ttf);
+}
+@font-face {
+    font-family: honeymoon;
+    src: url(../font/Honeymoon.ttf);
+}
+@font-face {
+    font-family: content;
+    src: url(../font/contentFont.ttf);
+}
+body{
+    background: url("../Images/backgrounds/backgroundSailorSoldires.jpg")no-repeat center center fixed;
+    background-size: cover;
+    font-size: 25px;
+}
+
+nav ul {
+    font-family: honeymoon;
+    padding: 0;
+    height: 43px;
+    width: 100%;
+    background-color: #086CA2;
+    margin: 0 auto;
+    position: relative;
+}
+nav ul ul{
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+nav ul ul li{
+    background-color: #086CA2;
+    position: relative;
+    width: 248px;
+}
+nav ul li:hover>ul{
+    display: inline-block;
+}
+
+li{
+    position: relative;
+    float: left;
+    padding:5px 62px;
+    font-size: 1.5rem;
+    display: inline-block;
+}
+li:hover{
+    background: yellow;
+}
+li a{
+    text-align: center;
+    text-decoration: none;
+    color: #050c2a;
+}
+.active{
+    color: #64AAD0;
+}
+section table{
+    margin-top: 100px;
+    font-family: content;
+    background-color: black ;
+    opacity: 0.9;
+    color: white;
+    border: solid yellow 2px;
+}
+.nameOfCharacter{
+    color: yellow;
+}
+table, th, td{
+    border: 2px white solid;
+    width: 1025px;
+}
+th{
+    font-size: 40px;
+    height: 50px;
+    font-family: moonstar;
+    letter-spacing: 2px;
+
+}
+.insideTable{
+    margin-left: 50px;
+}
+
+.insideTable, .insideTable td,.insideTable th{
+    border: 1px dashed white;
+
+}
+.insideTable td{
+    padding-left: 50px;
+    font-size: 28px;
+}
+.insideTable th{
+    font-family: honeymoon;
+}
+.insideTableSpecial{
+    color: pink;
+}
+.imageRow{
+    width: 200px;
+}
+img{
+    width: 300px;
+    height: 500px;
+}
+p{
+    width: 1020px;
+    padding-left: 50px;
+}
+dl{
+    width: 1020px;
+    padding-left: 50px;
+}
+.SailorMoon{
+    cursor: url(../font/Cursors/MoonSimbol.cur), auto
+}
+.SailorMercury{
+    cursor: url(../font/Cursors/MercurySimbol.cur), auto
+}
+.SailorMars{
+    cursor: url(../font/Cursors/MarsSimbol.cur), auto
+}
+.SailorChibiMoon{
+    cursor: url(../font/Cursors/ChbiusaSimbol.cur), auto
+}
+.SailorJupiter{
+    cursor: url(../font/Cursors/JupiterSimbol.cur), auto
+}
+.SailorNeptune{
+    cursor: url(../font/Cursors/NeptunSimbol.cur), auto
+}
+.SailorPluto{
+    cursor: url(../font/Cursors/PlutoSimbol.cur), auto
+}
+.SailorSaturn{
+    cursor: url(../font/Cursors/SaturnSimbol.cur), auto
+}
+.SailorUranus{
+    cursor: url(../font/Cursors/UranusSimbol.cur), auto
+}
+.SailorVenus{
+    cursor: url(../font/Cursors/VenusSimbol.cur), auto
+}
+#backToTop{
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: -10px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: darkred;
+    font-weight: bolder;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+#moonScroll{
+    width: 160px;
+    position: fixed;
+    bottom: 630px;
+    right: -10px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: yellow;
+    font-weight: bolder;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+}
+#mercuryScroll{
+    width: 160px;
+    position: fixed;
+    bottom: 590px;
+    right: -10px;
+    z-index: 98;
+    border: none;
+    outline: none;
+    background-color: cornflowerblue;
+    font-weight: bolder;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+#marsScroll{
+    width: 160px;
+    position: fixed;
+    bottom: 550px;
+    right: -10px;
+    z-index: 97;
+    border: none;
+    outline: none;
+    background-color: red;
+    font-weight: bolder;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+#jupiterScroll{
+    width: 160px;
+    position: fixed;
+    bottom: 510px;
+    right: -10px;
+    z-index: 96;
+    border: none;
+    outline: none;
+    background-color: green;
+    font-weight: bolder;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+#venusScroll{
+    width: 160px;
+    position: fixed;
+    bottom: 470px;
+    right: -10px;
+    z-index: 95;
+    border: none;
+    outline: none;
+    background-color: orange;
+    font-weight: bolder;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+}
+#plutoScroll{
+    width: 160px;
+    position: fixed;
+    bottom: 430px;
+    right: -10px;
+    z-index: 94;
+    border: none;
+    outline: none;
+    background-color: darkred;
+    font-weight: bolder;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+#uranusScroll{
+    width: 160px;
+    position: fixed;
+    bottom: 390px;
+    right: -10px;
+    z-index: 93;
+    border: none;
+    outline: none;
+    background-color: darkblue;
+    font-weight: bolder;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+#neptuneScroll{
+    width: 160px;
+    position: fixed;
+    bottom: 350px;
+    right: -10px;
+    z-index: 92;
+    border: none;
+    outline: none;
+    background-color: lightskyblue;
+    font-weight: bolder;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+}
+#saturnScroll{
+    width: 160px;
+    position: fixed;
+    bottom: 310px;
+    right: -10px;
+    z-index: 91;
+    border: none;
+    outline: none;
+    background-color: purple;
+    font-weight: bolder;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+#chibiMoonScroll{
+    width: 160px;
+    position: fixed;
+    bottom: 270px;
+    right: -10px;
+    z-index: 90;
+    border: none;
+    outline: none;
+    background-color: pink;
+    font-weight: bolder;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+}
+footer{
+    float: left;
+    font-family: "Comic Sans MS";
+    background: black;
+    color: #086CA2;
+    text-align: center;
+    margin-top: 50px;
+    width: 1575px;
+}

@@ -1,0 +1,115 @@
+@font-face {
+    font-family: moonstar;
+    src: url(font/Moonstar.ttf);
+}
+@font-face {
+    font-family: honeymoon;
+    src: url(font/Honeymoon.ttf);
+}
+@font-face {
+    font-family: content;
+    src: url(font/contentFont.ttf);
+}
+*{
+    cursor: url(font/Cursors/cursor1.cur), auto
+}
+body{
+    background: url("Images/backgrounds/home-wallpaper.png")no-repeat;
+    background-size: cover;
+    font-size: 25px;
+}
+h1{
+    font-size: 55px;
+    color: #3ab0f0;
+    text-align: center;
+    font-family: moonstar;
+    position: relative
+}
+nav ul {
+    font-family: honeymoon;
+    padding: 0;
+    height: 43px;
+    width: 100%;
+    background-color: #086CA2;
+    margin: 0 auto;
+    position: relative;
+}
+nav ul ul{
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+nav ul ul li{
+    background-color: #086CA2;
+    position: relative;
+    width: 248px;
+}
+nav ul li:hover>ul{
+    display: inline-block;
+}
+
+li{
+    position: relative;
+    float: left;
+    padding:5px 62px;
+    font-size: 1.5rem;
+    display: inline-block;
+}
+li:hover{
+    background: yellow;
+}
+li a{
+    text-align: center;
+    text-decoration: none;
+    color: #050c2a;
+}
+.active{
+    color: #64AAD0;
+}
+iframe{
+    width:560px;
+    height:315px;
+}
+p{
+    background: white;
+}
+.first{
+    padding: 50px;
+    margin: 0 auto;
+    font-family: content;
+    font-size: 35px;
+    border: solid yellow 2px;
+    border-radius: 25px;
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    color:transparent;
+    -webkit-background-clip: text;
+    font-weight: 900;
+}
+#video{
+    margin: 0 auto;
+    padding-left: 490px;
+    padding-top: 30px;
+}
+#backToTop{
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: -10px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: darkred;
+    font-weight: bolder;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+footer{
+    float: left;
+    font-family: "Comic Sans MS";
+    background: black;
+    color: #086CA2;
+    text-align: center;
+    margin-top: 50px;
+    width: 1575px;
+}

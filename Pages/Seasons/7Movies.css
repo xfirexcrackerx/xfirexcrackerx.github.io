@@ -1,0 +1,112 @@
+@font-face {
+    font-family: moonstar;
+    src: url(../../font/Moonstar.ttf);
+}
+@font-face {
+    font-family: honeymoon;
+    src: url(../../font/Honeymoon.ttf);
+}
+@font-face {
+    font-family: content;
+    src: url(../../font/contentFont.ttf);
+}
+*{
+    cursor: url(../../font/Cursors/moon-stick.cur), auto
+}
+body{
+    background: url("../../Images/backgrounds/sailor-moon-wallpaper.jpg")no-repeat fixed;
+    background-size: cover;
+    font-size: 25px;
+}
+nav ul {
+    font-family: honeymoon;
+    padding: 0;
+    height: 43px;
+    width: 100%;
+    background-color: #086CA2;
+    margin: 0 auto;
+    position: relative;
+}
+nav ul ul{
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+nav ul ul li{
+    background-color: #086CA2;
+    position: relative;
+    width: 248px;
+}
+nav ul li:hover>ul{
+    display: inline-block;
+}
+li{
+    position: relative;
+    float: left;
+    padding:5px 62px;
+    font-size: 1.5rem;
+    display: inline-block;
+}
+li:hover{
+    background: yellow;
+}
+li a{
+    text-align: center;
+    text-decoration: none;
+    color: #050c2a;
+}
+.active{
+    color: #64AAD0;
+}
+section h3{
+    color: white;
+    font-family: moonstar;
+    text-align: center;
+    font-size: 60px;
+    background: black;
+    opacity:0.9;
+}
+article{
+    border: 5px solid black;
+    background: lightpink;
+    color: black;
+    opacity: 0.8;
+    float: left;
+    width: 62.5em;
+}
+p::first-letter{
+    font-size: 45px;
+    font-family: moonstar;
+}
+.container{
+    float: left;
+    width: 490px;
+    border: 3px solid black;
+    padding: 7px;
+    margin: 5px;
+}
+img{
+    width: 480px;
+}
+details li:before {
+    content: "\2605";
+}
+details li:hover{
+    background-color: lightpink;
+}
+summary{
+    font-family: moonstar;
+    text-transform: uppercase;
+    text-align: center;
+}
+.movieSuperS{
+    height: 271px;
+}
+footer{
+    font-family: "Comic Sans MS";
+    background: black;
+    color: #086CA2;
+    text-align: center;
+    margin-top: 50px;
+    width: 1575px;
+}
