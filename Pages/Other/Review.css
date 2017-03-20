@@ -27,11 +27,13 @@ nav ul {
     background-color: #086CA2;
     margin: 0 auto;
     position: relative;
+    color: white;
 }
 nav ul ul{
     display: none;
     position: absolute;
     z-index: 1;
+    color: white;
 }
 nav ul ul li{
     background-color: #086CA2;
@@ -41,6 +43,7 @@ nav ul ul li{
 nav ul li:hover>ul{
     display: inline-block;
 }
+
 li{
     position: relative;
     float: left;
@@ -49,15 +52,18 @@ li{
     display: inline-block;
 }
 li:hover{
-    background: yellow;
+    background: #ffadfd;
 }
 li a{
     text-align: center;
     text-decoration: none;
-    color: #050c2a;
+    color: white;
 }
 .active{
-    color: #64AAD0;
+    color: #ffadfd;
+}
+.active:hover{
+    background:  #086CA2;
 }
 h1{
     text-shadow:4px 4px 8px black;
@@ -67,8 +73,7 @@ h1{
     position: relative
 }
 .fb-comments{
-    margin-top: -450px;
-    margin-left: 1070px;
+    margin-left: 1000px;
     background: white;
     border: 1px dashed hotpink;
     border-radius: 25px;
@@ -79,7 +84,6 @@ h1{
     font-family: moonstar;
     font-size: 45px;
     position: relative;
-    top:300px;
     left: 150px;
     color: #3ab0f0;
 }

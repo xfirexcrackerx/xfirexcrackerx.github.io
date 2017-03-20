@@ -15,8 +15,8 @@ section{
     text-decoration: none;
     padding: 5px;
     position: relative;
-    left: -1000px;
-    top: -50px;
+    left: 400px;
+    top: 7px;
 }
 .button:hover{
     border-radius: 25px;

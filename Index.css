@@ -33,6 +33,7 @@ nav ul {
     background-color: #086CA2;
     margin: 0 auto;
     position: relative;
+    color: white;
 }
 nav ul ul{
     display: none;
@@ -42,7 +43,7 @@ nav ul ul{
 nav ul ul li{
     background-color: #086CA2;
     position: relative;
-    width: 248px;
+    width: 100%;
 }
 nav ul li:hover>ul{
     display: inline-block;
@@ -56,15 +57,18 @@ li{
     display: inline-block;
 }
 li:hover{
-    background: yellow;
+    background: #ffadfd;
 }
 li a{
     text-align: center;
     text-decoration: none;
-    color: #050c2a;
+    color: white;
 }
 .active{
-    color: #64AAD0;
+    color: #ffadfd;
+}
+.active:hover{
+    background:  #086CA2;
 }
 iframe{
     width:560px;
