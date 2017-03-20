@@ -62,7 +62,11 @@ li:hover{
 li a{
     text-align: center;
     text-decoration: none;
+<<<<<<< HEAD
     color: white;
+=======
+     color: white;
+>>>>>>> origin/master
 }
 .active{
     color: #ffadfd;
