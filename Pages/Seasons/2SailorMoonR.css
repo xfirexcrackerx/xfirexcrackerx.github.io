@@ -1,0 +1,152 @@
+@font-face {
+    font-family: moonstar;
+    src: url(../../font/Moonstar.ttf);
+}
+@font-face {
+    font-family: honeymoon;
+    src: url(../../font/Honeymoon.ttf);
+}
+@font-face {
+    font-family: content;
+    src: url(../../font/contentFont.ttf);
+}
+*{
+    cursor: url(../../font/Cursors/moon-stick.cur), auto
+}
+body{
+    background: url("../../Images/backgrounds/sailor-moon-wallpaper.jpg")no-repeat fixed;
+    background-size: cover;
+    font-size: 25px;
+}
+nav ul {
+    font-family: honeymoon;
+    padding: 0;
+    height: 43px;
+    width: 100%;
+    background-color: #086CA2;
+    margin: 0 auto;
+    position: relative;
+    color: white;
+}
+nav ul ul{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    color: white;
+}
+nav ul ul li{
+    background-color: #086CA2;
+    position: relative;
+    width: 248px;
+}
+nav ul li:hover>ul{
+    display: inline-block;
+}
+
+li{
+    position: relative;
+    float: left;
+    padding:5px 62px;
+    font-size: 1.5rem;
+    display: inline-block;
+}
+li:hover{
+    background: #ffadfd;
+}
+li a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.active{
+    color: #ffadfd;
+}
+.active:hover{
+    background:  #086CA2;
+}
+section h3{
+    color: white;
+    font-family: moonstar;
+    text-align: center;
+    font-size: 60px;
+    background: black;
+    opacity:0.9;
+}
+
+h4{
+    letter-spacing: 2px;
+    font-family: moonstar;
+    text-align: center;
+    font-size: 50px;
+}
+article{
+    display: inline;
+    border: 5px solid black;
+    background: lightpink;
+    color: black;
+    opacity: 0.8;
+    float: left;
+    width: 62.5em;
+}
+p::first-letter{
+    font-size: 45px;
+    font-family: moonstar;
+}
+.makaiju{
+    border: 2px solid black;
+    width: 300px;
+    margin-left: 1200px;
+    margin-top: -200px;
+}
+h5{
+    text-align: center;
+    font-size: 2rem;
+}
+a{
+    text-decoration: none;
+    color: darkmagenta;
+}
+.float{
+    margin-left: 480px;
+    margin-top: -190px;
+}
+img{
+    border: 2px solid black;
+}
+.firstImg{
+    width: 100%;
+    height: 50%;
+}
+.giphy{
+    border: 2px solid black;
+    margin-left: 1050px;
+    margin-top: -200px;
+    width: 480px;
+    height: 351px;
+}
+.last{
+    width: 1000px;
+}
+#backToTop{
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: -10px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: darkred;
+    font-weight: bolder;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+footer{
+    font-family: "Comic Sans MS";
+    background: black;
+    color: #086CA2;
+    text-align: center;
+    margin-top: 50px;
+    width: 1575px;
+}
